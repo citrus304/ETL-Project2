@@ -1,0 +1,112 @@
+/* Styles for website body */
+*{
+  box-sizing: border-box;
+}
+container-text center p{
+  color: black;
+
+}
+jumbotron {
+  background-color: #e9ecef;
+}
+h1 {
+  background-color: #e9ecef;
+  color: #2F4F4F !important;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #F5F5F5;
+}
+
+header h1{
+  background-color: #BAC4C8;
+}
+header p{
+  color: black;
+
+}
+
+.greybox{
+  width: 100%;
+  background-color: #708090!important;
+  color: #fff;
+  padding: 8px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+a {
+  color: #BAC4C8;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+
+/* Styles for D3 map */
+#map{
+  display: block;
+  margin: auto;
+  width: 960px;
+  height: 500px;
+
+}
+.map-container{
+  margin: 0 auto;
+}
+.feature {
+  fill: rgba(255,255,255,0.01);
+  stroke: gray;
+  stroke-width: 1px;
+  cursor: pointer;
+}
+/* Custom CSS*/
+
+.legend {
+color: #555;
+padding: 6px 8px;
+font: 12px Arial, Helvetica, sans-serif;
+font-weight: bold;
+background: white;
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+border-radius: 5px;
+}
+.legend ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+clear: both;
+}
+.legend li {
+display: inline-block;
+width: 30px;
+height: 22px;
+opacity: 0.7;
+}
+.legend .min {
+float: left;
+padding-bottom: 5px;
+}
+.legend .max {
+float: right;
+}
